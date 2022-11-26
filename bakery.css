@@ -81,3 +81,54 @@ h4 {
   border: 1px solid rgb(204, 140, 21);
   border-radius: 7px;
 }
+@media screen and (max-width: 500px) {
+  .btn {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5%;
+  }
+  .btn-first {
+    padding: 10px;
+    background-color: rgb(204, 140, 21);
+    border: 5px solid rgb(204, 140, 21);
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: "Georgia", sans-serif;
+    font-size: 17px;
+    border-radius: 7px;
+    font-weight: 700;
+    padding-top: 15px;
+  }
+  .btn-first:hover {
+    background-color: black;
+    border: 5px solid black;
+    border-radius: 7px;
+  }
+  .btn-second {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 10px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Georgia", sans-serif;
+    font-size: 17px;
+    border-radius: 7px;
+    color: black;
+    padding-top: 19px;
+    font-weight: 700;
+    margin-right: 10px;
+  }
+
+  .btn-second:hover {
+    color: rgb(204, 140, 21);
+    border: 1px solid rgb(204, 140, 21);
+    border-radius: 7px;
+  }
+}
