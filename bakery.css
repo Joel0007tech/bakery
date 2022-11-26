@@ -1,73 +1,83 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html,body{
-    background-color: white;
+
+html,
+body {
+  background-color: white;
 }
-h2{
+
+h2 {
   color: black;
   text-align: center;
-  font-family:'Roboto', sans-serif;;
-  font-size:60px;
-  font-weight:800;
-  margin-top:4%;
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  font-weight: 800;
+  margin-top: 4%;
 }
-h4{
-text-align: center;
-color: black;
-font-family:'Open Sans', sans-serif;
-font-style: italic;
-font-size: 20px;
-margin-top:1%;
+
+h4 {
+  text-align: center;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 1%;
 }
-.img-section{
-    display: flex;
-    justify-content: center;
-    margin-top: 3%;
+
+.img-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
 }
-.btn{
-    display: flex;
-    justify-content: center;
-    margin-top: 3%; 
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
 }
-.btn-first{
-    padding:10px;
-    background-color: rgb(204, 140, 21);
-    border:5px solid rgb(204, 140, 21);
-    width:200px;
-    text-align: center;
-    text-decoration:none;
-    color: white;
-    font-family:'Georgia', sans-serif;
-    font-size:17px;
-    border-radius:7px;
-    font-weight:700;
-    padding-top: 15px;
+
+.btn-first {
+  padding: 10px;
+  background-color: rgb(204, 140, 21);
+  border: 5px solid rgb(204, 140, 21);
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: "Georgia", sans-serif;
+  font-size: 17px;
+  border-radius: 7px;
+  font-weight: 700;
+  padding-top: 15px;
 }
-.btn-first:hover{
-    background-color: black;
-    border: 5px solid black;
-    border-radius: 7px;
+
+.btn-first:hover {
+  background-color: black;
+  border: 5px solid black;
+  border-radius: 7px;
 }
-.btn-second{
-    padding:10px;
-    background-color: white;
-    border:1px solid black;
-    margin-left:10px;
-    width:200px;
-    text-align: center;
-    text-decoration: none;
-    font-family:'Georgia', sans-serif;
-    font-size:17px;
-    border-radius:7px;
-    color: black;
-    padding-top:19px;
-    font-weight:700;
+
+.btn-second {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid black;
+  margin-left: 10px;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Georgia", sans-serif;
+  font-size: 17px;
+  border-radius: 7px;
+  color: black;
+  padding-top: 19px;
+  font-weight: 700;
 }
-.btn-second:hover{
-    color: rgb(204, 140, 21);
-    border: 1px solid rgb(204, 140, 21);
-    border-radius: 7px;
+
+.btn-second:hover {
+  color: rgb(204, 140, 21);
+  border: 1px solid rgb(204, 140, 21);
+  border-radius: 7px;
 }
